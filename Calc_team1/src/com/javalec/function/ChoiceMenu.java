@@ -39,7 +39,8 @@ public class ChoiceMenu {
 			addSubtract.addition();
 			addSubtract.subtraction();
 		} else if (choice == 2) {
-			
+			Calc_02 calc_02 = new Calc_02(startNum, endNum);
+			calc_02.calcAll();
 		} else if (choice == 3) {
 			System.out.printf("%d 와 %d 사이의 합계는 %d입니다.\n", startNum, endNum, rangeSum.rangeSum(startNum, endNum));
 		} else if (choice == 4) {
